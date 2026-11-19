@@ -219,7 +219,8 @@ def delta(chave, tipo="pct"):
     return f"{(a / b - 1) * 100:+.1f}%".replace(".", ",")
 
 
-c = st.columns(6)
+# Duas linhas de 3 cartões: os valores não ficam cortados em telas estreitas
+c = st.columns(3) + st.columns(3)
 receita_mi = f"{k_atual['receita'] / 1e6:.1f} mi".replace(".", ",")
 c[0].metric("Receita (R$)", receita_mi, delta("receita"), border=True,
             help=brl(k_atual["receita"], curto=False))
