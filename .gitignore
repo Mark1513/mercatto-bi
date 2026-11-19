@@ -1,0 +1,11 @@
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Arquivos gerados pelo pipeline (recriados com `python run_all.py`
+# ou automaticamente pelo dashboard na primeira execução)
+data/
+reports/
