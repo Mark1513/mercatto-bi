@@ -9,3 +9,6 @@ __pycache__/
 # ou automaticamente pelo dashboard na primeira execução)
 data/
 reports/
+
+# Material pessoal de preparação para a defesa (fica só no computador)
+docs/04_roteiro_defesa.md

@@ -77,8 +77,7 @@ projeto_bi/
 └── docs/
     ├── 01_planejamento.md     # cenário, problema, usuários, perguntas, KPIs
     ├── 02_dicionario_dados.md # modelo estrela, granularidade, volume, dicionário
-    ├── 03_insights_recomendacoes.md  # 7 insights, 5 recomendações, limitações, LGPD
-    └── 04_roteiro_defesa.md   # roteiro da demonstração e perguntas prováveis
+    └── 03_insights_recomendacoes.md  # 7 insights, 5 recomendações, limitações, LGPD
 ```
 
 ## Onde está cada item do barema
@@ -112,8 +111,8 @@ projeto_bi/
 | **Integração e defesa** | **600** | |
 | Integração do fluxo completo | 150 | `run_all.py` → dashboard |
 | Organização e instruções | 100 | este README |
-| Demonstração prática | 150 | `docs/04_roteiro_defesa.md` §4.1 |
-| Domínio técnico e respostas | 200 | `docs/04_roteiro_defesa.md` §4.2 |
+| Demonstração prática | 150 | apresentação ao vivo: `python run_all.py` → dashboard ([online](https://mercatto-bi.streamlit.app)) |
+| Domínio técnico e respostas | 200 | apresentação ao vivo |
 
 ## Tecnologias
 
